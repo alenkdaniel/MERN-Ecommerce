@@ -1,0 +1,13 @@
+@import "tailwindcss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .page-content{
+  padding-top:70px;              
+  min-height:calc(100vh - 70px); 
+
+  display:flex;
+  flex-direction:column;
+} */

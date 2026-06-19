@@ -1,0 +1,111 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Apple iPhone 14 pro",
+      "category": "Mobile",
+      "price": 69999,
+      "rating": 4.7,
+      "stock": 15,
+      "image": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SX679_.jpg",
+      "description": "Apple iPhone 14 with A15 Bionic chip and advanced dual-camera system."
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S23",
+      "category": "Mobile",
+      "price": 74999,
+      "rating": 4.6,
+      "stock": 12,
+      "image": "https://m.media-amazon.com/images/I/61VfL-aiToL._SX679_.jpg",
+      "description": "Samsung Galaxy S23 with Snapdragon processor and pro-grade camera."
+    },
+    {
+      "id": "3",
+      "name": "HP Pavilion Laptop",
+      "category": "Laptop",
+      "price": 58999,
+      "rating": 4.4,
+      "stock": 10,
+      "image": "https://m.media-amazon.com/images/I/71Xa4o1DXpL.jpg",
+      "description": "HP Pavilion laptop with Intel i5 processor and 16GB RAM."
+    },
+    {
+      "id": "4",
+      "name": "Apple MacBook Air M1",
+      "category": "Laptop",
+      "price": 89999,
+      "rating": 4.8,
+      "stock": 8,
+      "image": "https://m.media-amazon.com/images/I/71jG+e7roXL._SX679_.jpg",
+      "description": "MacBook Air with Apple M1 chip, lightweight and powerful."
+    },
+    {
+      "id": "5",
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Accessories",
+      "price": 29999,
+      "rating": 4.9,
+      "stock": 20,
+      "image": "https://hnsgsfp.imgix.net/9/images/detailed/92/sony-wh-1000xm5-wireless-noise-canceling-over-ear-headphones-midnight-blue_1.jpg?fit=fill&bg=0FFF&w=2500&h=1463&auto=format,compress",
+      "description": "Industry-leading noise cancellation wireless headphones."
+    },
+    {
+      "id": "6",
+      "name": "Boat Rockerz 450 Headphones",
+      "category": "Accessories",
+      "price": 1499,
+      "rating": 4.3,
+      "stock": 50,
+      "image": "https://m.media-amazon.com/images/I/61u1VALn6JL._SX679_.jpg",
+      "description": "Affordable wireless headphones with powerful bass."
+    },
+    {
+      "id": "7",
+      "name": "Samsung 55 inch Smart TV",
+      "category": "Television",
+      "price": 45999,
+      "rating": 4.5,
+      "stock": 6,
+      "image": "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Television/Images/315364_0_flktud.png",
+      "description": "4K UHD Smart TV with HDR and voice assistant support."
+    },
+    {
+      "id": "8",
+      "name": "Canon EOS 1500D DSLR Camera",
+      "category": "Camera",
+      "price": 38999,
+      "rating": 4.6,
+      "stock": 9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgpcK9FhhVCyfjtcPYMUgmRoCkKIQgWhWzGA&s",
+      "description": "DSLR camera with 24.1 MP sensor and WiFi connectivity."
+    },
+    {
+      "id": "14df",
+      "name": "Ibell 1600 watt Steam Iron Box",
+      "price": 1745,
+      "category": "Household Appliance",
+      "image": "https://cdn.moglix.com/p/48z7TXh0mvvWt-xxlarge.jpg",
+      "description": "iBELL 1600 Watt Steam Iron Box with Adjustable Thermostatic Control,Water Spray,High Grade Sole Plate(Red)",
+      "isActive": true
+    },
+    {
+      "id": "870c",
+      "name": "Samsung Inverter Fully Automatic Washing Machine",
+      "price": 33490,
+      "category": "Cleaning",
+      "image": "https://www.myg.in/images/thumbnails/600/600/detailed/122/Samsung-9-0kg-fully-automatic-front-load-washing-machine-ww90fg4u04astl-navy-Front-View.jpg.png",
+      "description": "Samsung Inverter Fully Automatic Washing Machine with Hygiene Steam | Front Load | 5 Star | 9KG | Navy | WW90FG4U04ASTL",
+      "isActive": true
+    },
+    {
+      "id": "139c",
+      "name": "V-Guard Pebble Pro Water Heater | 15 L",
+      "price": 10990,
+      "category": "Water Heater",
+      "image": "https://www.myg.in/images/thumbnails/600/600/detailed/103/pebble-pro-15l-removebg-preview.png.png",
+      "description": "Storage Useful for Bathroom, can store heated water .15 L Greater the Capacity, more the users can be served for bath/wash. Suitable for large wall spaces",
+      "isActive": false
+    }
+  ]
+}

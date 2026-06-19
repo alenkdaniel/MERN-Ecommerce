@@ -1,0 +1,150 @@
+/* PAGE BACKGROUND */
+.pd-wrapper{
+  min-height:100vh;
+  padding:120px 8%;
+  display:grid;
+  grid-template-columns:1.1fr 1fr;
+  gap:70px;
+  align-items:center;
+
+  background:
+    radial-gradient(circle at 20% 10%, #151515 0%, transparent 40%),
+    radial-gradient(circle at 90% 90%, #111 0%, transparent 40%),
+    linear-gradient(180deg,#000,#0b0b0b);
+
+  color:white;
+  font-family:"Poppins",sans-serif;
+}
+
+
+/* IMAGE CONTAINER */
+.pd-image-box{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  padding:40px;
+  border-radius:28px;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+
+  box-shadow:
+    0 30px 80px rgba(0,0,0,.8),
+    0 0 40px rgba(92,124,255,.15);
+}
+
+
+/* IMAGE */
+.pd-image-box img{
+  width:100%;
+  max-width:420px;
+  object-fit:contain;
+  border-radius:22px;
+  transition:.4s;
+  filter:drop-shadow(0 30px 60px rgba(0,0,0,.8));
+}
+
+.pd-image-box img:hover{
+  transform:scale(1.05);
+}
+
+
+/* RIGHT SIDE */
+.pd-details-box{
+  max-width:520px;
+}
+
+
+/* TITLE */
+.pd-details-box h1{
+  font-size:42px;
+  font-weight:600;
+  margin-bottom:20px;
+  line-height:1.2;
+  color:#f3f4f6;
+}
+
+
+/* DESCRIPTION */
+.pd-description{
+  color:#9ca3af;
+  font-size:16px;
+  line-height:1.7;
+  margin-bottom:28px;
+}
+
+
+/* PRICE */
+.pd-price{
+  font-size:34px;
+  font-weight:600;
+  margin-bottom:35px;
+  color:#5c7cff;
+}
+
+
+/* BUTTON GROUP */
+.pd-actions{
+  display:flex;
+  gap:18px;
+}
+
+
+/* ADD BUTTON */
+.pd-actions .btn-success{
+  background:linear-gradient(135deg,#5c7cff,#00ffd0);
+  border:none;
+  color:white;
+  font-weight:600;
+  padding:12px 28px;
+  border-radius:30px;
+  transition:.3s;
+}
+
+.pd-actions .btn-success:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 30px rgba(0,255,208,.35);
+}
+
+
+/* BACK BUTTON */
+.pd-actions .btn-outline-secondary{
+  border-radius:30px;
+  padding:12px 26px;
+  border:1px solid rgba(255,255,255,.25);
+  color:white;
+}
+
+.pd-actions .btn-outline-secondary:hover{
+  background:white;
+  color:black;
+}
+
+
+/* LOADING */
+.pd-loading{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:20px;
+  color:#9ca3af;
+  background:#000;
+}
+
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .pd-wrapper{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+
+  .pd-details-box{
+    margin:auto;
+  }
+
+  .pd-actions{
+    justify-content:center;
+  }
+}

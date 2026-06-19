@@ -1,0 +1,110 @@
+/* PAGE */
+.about-container{
+  background:#060a14;
+  color:white;
+  font-family:"Poppins",sans-serif;
+  padding-top:80px;
+}
+
+
+/* HERO */
+.about-hero{
+  text-align:center;
+  padding:120px 20px 100px;
+
+  background:
+    linear-gradient(rgba(4,7,18,.45), rgba(4,7,18,.65)),
+    url("https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop")
+    center/cover no-repeat;
+}
+
+.about-hero h1{
+  font-family:"Playfair Display",serif;
+  font-size:clamp(48px,7vw,100px);
+  font-weight:500;
+  margin-bottom:20px;
+}
+
+.about-hero p{
+  max-width:700px;
+  margin:auto;
+  font-size:18px;
+  color:#d6def7;
+}
+
+
+/* GRID */
+.about-content{
+  padding:100px 8%;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:35px;
+}
+
+
+/* CARD */
+.about-card{
+  position:relative;
+  padding:30px 26px;
+  border-radius:22px;
+  overflow:hidden;
+
+  background:rgba(15,22,40,.92);
+  border:1px solid rgba(255,255,255,.08);
+
+  transition:.35s ease;
+  min-height:260px;
+}
+
+
+/* HOVER EFFECT */
+.about-card:hover{
+  transform:translateY(-10px) scale(1.02);
+  box-shadow:0 20px 50px rgba(0,0,0,.55);
+  border-color:rgba(120,160,255,.4);
+}
+
+
+/* SHINE EFFECT */
+.about-card::after{
+  content:"";
+  position:absolute;
+  top:-50%;
+  left:-60%;
+  width:200%;
+  height:200%;
+  background:linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,.08),
+    transparent
+  );
+  transform:rotate(25deg);
+  transition:.6s;
+}
+
+.about-card:hover::after{
+  left:120%;
+}
+
+
+/* TITLE */
+.about-card h2{
+  font-size:22px;
+  margin-bottom:12px;
+  font-weight:600;
+  letter-spacing:.3px;
+}
+
+
+/* TEXT */
+.about-card p,
+.about-card li{
+  color:#c7d2ff;
+  font-size:15px;
+  line-height:1.6;
+}
+
+.about-card ul{
+  padding-left:18px;
+}

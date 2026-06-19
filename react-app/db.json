@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "isBlocked": false,
+      "isActive": true
+    },
+    {
+      "id": "fe53",
+      "username": "Alen K Daniel",
+      "email": "alenk@gmail.com",
+      "password": "134",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true
+    },
+    {
+      "id": "ef3e",
+      "username": "Akbar khan",
+      "email": "akbar@gmail.com",
+      "password": "789",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": false
+    },
+    {
+      "id": "74d7",
+      "username": "akhil",
+      "email": "akhil@gmail.com",
+      "password": "567",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true
+    },
+    {
+      "id": "cca2",
+      "username": "gbgbvg",
+      "email": "munna@gmail.com",
+      "password": "456",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true
+    },
+    {
+      "id": "8645",
+      "username": "Sulfikkar",
+      "email": "sulfikkar@gmail.com",
+      "password": "621",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true
+    },
+    {
+      "id": "d55c",
+      "username": "Kalam",
+      "email": "kalam@gmail.com",
+      "password": "001",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true
+    },
+    {
+      "id": "6416",
+      "username": "Ben K Daniel",
+      "email": "ben@gmail.com",
+      "password": "ben@1234",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true
+    },
+    {
+      "id": "283f",
+      "username": "Karthikeyan",
+      "email": "karthikeyan@gmail.com",
+      "password": "karthik123",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true
+    }
+  ]
+}

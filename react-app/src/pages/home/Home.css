@@ -1,0 +1,158 @@
+/* PAGE */
+.home-container{
+  font-family:"Poppins",sans-serif;
+  background:#060a14;
+  color:white;
+  overflow-x:hidden;
+}
+
+
+/* HERO SECTION */
+.hero-modern{
+  position:relative;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  overflow:hidden;
+
+  background:
+    linear-gradient(rgba(4,7,18,.45), rgba(4,7,18,.65)),
+    url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2070&auto=format&fit=crop")
+    center/cover no-repeat;
+}
+
+
+/* LIGHT GLOW EFFECTS */
+.hero-modern::before,
+.hero-modern::after{
+  content:"";
+  position:absolute;
+  width:600px;
+  height:600px;
+  background:radial-gradient(circle, rgba(120,160,255,.28), transparent 70%);
+  filter:blur(60px);
+  z-index:0;
+  animation:floatGlow 12s linear infinite alternate;
+}
+
+.hero-modern::before{
+  top:-200px;
+  left:-200px;
+}
+
+.hero-modern::after{
+  bottom:-200px;
+  right:-200px;
+  animation-delay:4s;
+}
+
+@keyframes floatGlow{
+  from{ transform:translate(0,0) }
+  to{ transform:translate(120px,80px) }
+}
+
+
+/* DARK OVERLAY (LIGHTENED) */
+.hero-overlay{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(to bottom, rgba(0,0,0,.25), rgba(0,0,0,.55));
+  z-index:1;
+}
+
+
+/* CONTENT */
+.hero-content{
+  position:relative;
+  z-index:2;
+  max-width:900px;
+  padding:20px;
+}
+
+
+/* BIG TITLE */
+.hero-content h1{
+  font-family:"Playfair Display",serif;
+  font-size:clamp(50px,8vw,120px);
+  font-weight:500;
+  letter-spacing:-1px;
+  margin-bottom:20px;
+  line-height:1.05;
+}
+
+
+/* SUBTEXT */
+.hero-content p{
+  font-size:18px;
+  color:#e2e6f5;
+  margin-bottom:35px;
+}
+
+
+/* BUTTON */
+.hero-content button{
+  padding:15px 34px;
+  font-size:16px;
+  border:none;
+  border-radius:40px;
+  background:linear-gradient(135deg,#5f7cff,#7aa8ff);
+  color:white;
+  cursor:pointer;
+  transition:.3s;
+  box-shadow:0 10px 30px rgba(90,120,255,.35);
+}
+
+.hero-content button:hover{
+  transform:translateY(-4px);
+  box-shadow:0 15px 45px rgba(90,120,255,.55);
+}
+
+
+/* BENEFITS SECTION */
+.benefits-section{
+  padding:110px 8%;
+  text-align:center;
+  background:#070c16;
+}
+
+.benefits-section h2{
+  font-size:44px;
+  margin-bottom:55px;
+  font-weight:600;
+}
+
+
+/* GRID */
+.benefits-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:30px;
+}
+
+
+/* CARD */
+.benefit-card{
+  background:#0e1628;
+  padding:32px 26px;
+  border-radius:22px;
+  transition:.35s;
+  border:1px solid rgba(255,255,255,.05);
+}
+
+.benefit-card:hover{
+  transform:translateY(-10px) scale(1.02);
+  border-color:rgba(255,255,255,.15);
+  box-shadow:0 15px 40px rgba(0,0,0,.45);
+}
+
+.benefit-card h4{
+  font-size:21px;
+  margin-bottom:12px;
+}
+
+.benefit-card p{
+  color:#c2cbe3;
+  font-size:15px;
+}

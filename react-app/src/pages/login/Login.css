@@ -1,0 +1,147 @@
+/* PAGE BACKGROUND */
+.login-container{
+  min-height: calc(100vh - 70px); 
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  font-family:"Poppins",sans-serif;
+
+  background:
+    radial-gradient(circle at 20% 10%, #1a2236 0%, transparent 40%),
+    radial-gradient(circle at 90% 90%, #182033 0%, transparent 40%),
+    linear-gradient(180deg,#141c30,#0f172a);
+}
+
+
+/* CARD */
+.login-card{
+  width:100%;
+  max-width:360px;
+  padding:42px 36px;
+  border-radius:26px;
+  position:relative;
+  text-align:center;
+  margin-top:60px;
+  margin-bottom: 25px;
+
+  background:rgba(20,25,40,.92);
+  border:1px solid rgba(255,255,255,.12);
+  box-shadow:0 30px 80px rgba(0,0,0,.7);
+}
+
+
+/* SUBTLE BORDER GLOW */
+.login-card::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:26px;
+  padding:1px;
+  background:linear-gradient(120deg,#5c7cff,#7c3aed,#00ffd0);
+  opacity:.45;
+  pointer-events:none;
+}
+
+
+/* TITLE */
+.login-card h1{
+  font-size:36px;
+  margin-bottom:30px;
+  font-weight:600;
+  color:white;
+}
+
+
+/* FORM GROUP */
+.form-group{
+  text-align:left;
+  margin-bottom:20px;
+}
+
+.form-group label{
+  font-size:14px;
+  color:#aab3cf;
+  display:block;
+  margin-bottom:6px;
+}
+
+
+/* INPUT */
+.form-group input{
+  width:100%;
+  padding:14px 16px;
+  border-radius:40px;
+  border:1px solid rgba(255,255,255,.15);
+  background:rgba(255,255,255,.04);
+  color:white;
+  font-size:14px;
+  outline:none;
+  transition:.25s;
+}
+
+.form-group input:focus{
+  border-color:#5c7cff;
+  box-shadow:0 0 0 3px rgba(92,124,255,.25);
+}
+
+
+/* ERROR */
+.error-text{
+  font-size:12px;
+  color:#ff6b6b;
+  margin-top:4px;
+}
+
+
+/* BUTTON */
+.login-btn{
+  width:100%;
+  margin-top:10px;
+  padding:14px;
+  border:none;
+  border-radius:40px;
+  font-size:15px;
+  font-weight:600;
+  color:white;
+  cursor:pointer;
+
+  background:linear-gradient(135deg,#5c7cff,#00ffd0);
+  transition:.3s;
+}
+
+.login-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 12px 28px rgba(0,255,208,.35);
+}
+
+
+/* REGISTER TEXT */
+.register-path{
+  margin-top:20px;
+  font-size:14px;
+  color:#aab3cf;
+}
+
+.register-path button{
+  background:none;
+  border:none;
+  color:#00ffd0;
+  cursor:pointer;
+  font-weight:500;
+  margin-left:6px;
+}
+
+
+/* MOBILE RESPONSIVE */
+@media (max-width:480px){
+
+  .login-card{
+    padding:32px 24px;
+  }
+
+  .login-card h1{
+    font-size:28px;
+  }
+
+}
